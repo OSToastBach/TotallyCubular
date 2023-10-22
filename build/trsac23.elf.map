@@ -891,7 +891,7 @@ Discarded input sections
                 0x00000000        0x4 main.o
  .sdata.decca_size
                 0x00000000        0x4 main.o
- .sdata.fell_size
+ .sdata.jtruk_size
                 0x00000000        0x4 main.o
  .sdata.pmalin_size
                 0x00000000        0x4 main.o
@@ -11997,8 +11997,8 @@ Linker script and memory map
  .rodata.decca  0x804c1344     0x51f7 main.o
                 0x804c1344                decca
  *fill*         0x804c653b        0x1 
- .rodata.fell   0x804c653c     0x559e main.o
-                0x804c653c                fell
+ .rodata.jtruk  0x804c653c     0x559e main.o
+                0x804c653c                jtruk
  *fill*         0x804cbada        0x2 
  .rodata.pmalin
                 0x804cbadc     0x74e4 main.o
@@ -15819,9 +15819,9 @@ Linker script and memory map
  .sbss.mii_decca
                 0x80548c14        0x4 main.o
                 0x80548c14                mii_decca
- .sbss.mii_fell
+ .sbss.mii_jtruk
                 0x80548c18        0x4 main.o
-                0x80548c18                mii_fell
+                0x80548c18                mii_jtruk
  .sbss.mii_pmalin
                 0x80548c1c        0x4 main.o
                 0x80548c1c                mii_pmalin

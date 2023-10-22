@@ -52,7 +52,7 @@ y' = x*sin(theta) + y * cos(theta)
 #include "gfx/miis/kieran.h"
 #include "gfx/miis/pmalin.h"
 //rift
-#include "gfx/miis/fell.h"
+#include "gfx/miis/jtruk.h"
 #include "gfx/miis/decca.h"
 #include "gfx/miis/bossman.h"
 #include "gfx/miis/mantratronic.h"
@@ -110,7 +110,7 @@ GRRLIB_texImg *mii_losso;
 GRRLIB_texImg *mii_kieran;
 GRRLIB_texImg *mii_pmalin;
 //rift
-GRRLIB_texImg *mii_fell;
+GRRLIB_texImg *mii_jtruk;
 GRRLIB_texImg *mii_decca;
 GRRLIB_texImg *mii_bossman;
 GRRLIB_texImg *mii_mantra;
@@ -148,7 +148,7 @@ f32 heartpos[8][3];
 
 u32 col;
 
-GRRLIB_texImg* (*sceners[21])={&mii_losso,&mii_pmalin,&mii_kieran,&mii_fell,&mii_decca,&mii_bossman,&mii_mantra,&mii_xxx,&mii_docd,&mii_watcher,&mii_gasman,&mii_hoffman,&mii_wobble,&mii_ferris,&mii_ts,&mii_sunspire,&mii_halcy,&mii_sagamsx,&mii_poro,&mii_jeenio,&mii_ps};
+GRRLIB_texImg* (*sceners[21])={&mii_losso,&mii_pmalin,&mii_kieran,&mii_jtruk,&mii_decca,&mii_bossman,&mii_mantra,&mii_xxx,&mii_docd,&mii_watcher,&mii_gasman,&mii_hoffman,&mii_wobble,&mii_ferris,&mii_ts,&mii_sunspire,&mii_halcy,&mii_sagamsx,&mii_poro,&mii_jeenio,&mii_ps};
 
 char (*groups[10])[5][48]= {&attn,&btshft,&rift,&hajb,&tuhb,&hprg,&lgcma,&tssp,&svatg,&scnpt};
 
@@ -650,7 +650,7 @@ int main() {
 	mii_losso = GRRLIB_LoadTexture(losso);
 	mii_pmalin = GRRLIB_LoadTexture(pmalin);
 	mii_kieran = GRRLIB_LoadTexture(kieran);
-	mii_fell = GRRLIB_LoadTexture(fell);
+	mii_jtruk = GRRLIB_LoadTexture(jtruk);
 	mii_decca = GRRLIB_LoadTexture(decca);
 	mii_bossman = GRRLIB_LoadTexture(bossman);
 	mii_mantra = GRRLIB_LoadTexture(mantratronic);
@@ -677,7 +677,7 @@ int main() {
 	GRRLIB_SetHandle(mii_losso,128,128);
 	GRRLIB_SetHandle(mii_pmalin,128,128);
 	GRRLIB_SetHandle(mii_kieran,128,128);
-	GRRLIB_SetHandle(mii_fell,128,128);
+	GRRLIB_SetHandle(mii_jtruk,128,128);
 	GRRLIB_SetHandle(mii_decca,128,128);
 	GRRLIB_SetHandle(mii_bossman,128,128);
 	GRRLIB_SetHandle(mii_mantra,128,128);

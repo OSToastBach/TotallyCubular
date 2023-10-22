@@ -79,7 +79,7 @@ main.o: C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/main.c \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/losso.h \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/kieran.h \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/pmalin.h \
- C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/fell.h \
+ C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/jtruk.h \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/decca.h \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/bossman.h \
  C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/mantratronic.h \
@@ -184,7 +184,7 @@ C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/tubulartext.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/losso.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/kieran.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/pmalin.h:
-C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/fell.h:
+C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/jtruk.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/decca.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/bossman.h:
 C:/Users/Oscar/Desktop/trsac/Wii/projects/trsacdemo/source/gfx/miis/mantratronic.h:
